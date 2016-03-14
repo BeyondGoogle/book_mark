@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160314190505) do
+ActiveRecord::Schema.define(version: 20160314191041) do
 
   create_table "board_cards", force: :cascade do |t|
     t.integer  "board_id",   limit: 4
@@ -32,6 +32,16 @@ ActiveRecord::Schema.define(version: 20160314190505) do
   end
 
   add_index "boards", ["user_id"], name: "index_boards_on_user_id", using: :btree
+
+  create_table "bookmarks", force: :cascade do |t|
+    t.integer  "card_id",    limit: 4
+    t.integer  "user_id",    limit: 4
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
+  end
+
+  add_index "bookmarks", ["card_id"], name: "index_bookmarks_on_card_id", using: :btree
+  add_index "bookmarks", ["user_id"], name: "index_bookmarks_on_user_id", using: :btree
 
   create_table "cards", force: :cascade do |t|
     t.string   "url",             limit: 255
@@ -80,6 +90,8 @@ ActiveRecord::Schema.define(version: 20160314190505) do
   add_foreign_key "board_cards", "boards"
   add_foreign_key "board_cards", "cards"
   add_foreign_key "boards", "users"
+  add_foreign_key "bookmarks", "cards"
+  add_foreign_key "bookmarks", "users"
   add_foreign_key "favorites", "boards"
   add_foreign_key "favorites", "users"
 end

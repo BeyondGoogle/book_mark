@@ -29,6 +29,7 @@ group :development, :test do
   gem 'did_you_mean', '0.9.10'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'quiet_assets'
 end
 
 group :development do

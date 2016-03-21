@@ -74,6 +74,8 @@ GEM
       responders
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
+    did_you_mean (0.9.10)
+      interception
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -99,6 +101,7 @@ GEM
       multi_json (~> 1.8)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
+    interception (0.5)
     jbuilder (2.4.1)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
@@ -222,6 +225,7 @@ DEPENDENCIES
   bullet
   coffee-rails (~> 4.1.0)
   devise
+  did_you_mean (= 0.9.10)
   guard-livereload
   jbuilder (~> 2.0)
   jquery-rails

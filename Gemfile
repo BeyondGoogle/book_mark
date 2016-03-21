@@ -20,6 +20,7 @@ group :development, :test do
   # gem 'rb-fsevent', group: :darwin
   gem 'spring'
   gem 'bullet'
+  gem 'guard-livereload'
   gem 'pry-rails'
   gem 'pry-doc'
   gem 'pry-byebug', '1.3.3'

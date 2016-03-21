@@ -24,6 +24,7 @@ group :development, :test do
   gem 'pry-doc'
   gem 'pry-byebug', '1.3.3'
   gem 'pry-remote'
+  gem 'awesome_print'
   gem 'better_errors'
   gem 'binding_of_caller'
 end

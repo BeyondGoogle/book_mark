@@ -11,6 +11,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'html2slim', '0.2.0'
 gem 'slim-rails', '3.0.1'
+gem 'therubyracer'
 
 group :production do
 # gem 'unicorn'

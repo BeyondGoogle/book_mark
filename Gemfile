@@ -15,13 +15,12 @@ group :production do
 end
 
 group :development, :test do
-  # gem 'capistrano-rails', require: false
+  gem 'spring'
+  gem 'bullet'
   gem 'byebug'
 end
 
 group :development do
-  gem 'web-console', '~> 2.0'
-  gem 'spring'
+  # gem 'capistrano-rails', require: false
   gem 'annotate'
-  gem 'bullet'
 end

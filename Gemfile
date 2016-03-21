@@ -17,7 +17,6 @@ end
 group :development, :test do
   gem 'spring'
   gem 'bullet'
-  gem 'byebug'
   gem 'pry-rails'
   gem 'pry-doc'
   gem 'pry-byebug', '1.3.3'

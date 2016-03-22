@@ -14,6 +14,7 @@ gem 'slim-rails', '3.0.1'
 gem 'therubyracer'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
+gem 'jquery-turbolinks'
 
 group :production do
 # gem 'unicorn'

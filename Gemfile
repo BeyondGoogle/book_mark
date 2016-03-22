@@ -13,6 +13,7 @@ gem 'html2slim', '0.2.0'
 gem 'slim-rails', '3.0.1'
 gem 'therubyracer'
 gem 'bootstrap-sass'
+gem 'font-awesome-sass'
 
 group :production do
 # gem 'unicorn'

@@ -1,8 +1,9 @@
 #js-card-container.card-wrapper
   - 10.times do
     .card-content.clearfix.js-card-content
-      a.card-link href="https://www.facebook.com/events/1606328306308962/"
+      = link_to "https://www.facebook.com/events/1606328306308962/", class: "card-link"
+        |
       .card-image
-        = image_tag "http://capture.heartrails.com/huge?http://masonry.desandro.com/"
+        = image_tag "http://capture.heartrails.com/huge?https://twitter.com/"
       .card-detail
         p Facebookは、友達や同僚、同級生、近所の人たちと交流を深めることのできるソーシャルユーティリティサイトです。

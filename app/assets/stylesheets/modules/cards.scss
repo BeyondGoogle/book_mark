@@ -1,26 +1,30 @@
 .card-wrapper {
-	background-color: white;
-  float: left;
-  border-radius: 10px;
-  margin: 10px;
-  width: 13%;
-  position: relative;
+  margin: 0 auto;
+  
+  .card-content {
+  	background-color: white;
+    float: left;
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+    position: relative;
 
-  .card-image img {
-  	border-radius: 10px 10px 0px 0px;
-  	width: 100%;
-  } 
+    .card-image img {
+    	border-radius: 10px 10px 0px 0px;
+    	width: 100%;
+    } 
 
-  .card-detail{
-  	padding: 10px;
-  }
+    .card-detail {
+    	padding: 10px;
+    }
 
-  .card-link {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+    .card-link {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
   }
 }

@@ -1,7 +1,7 @@
 masonry_start = (content, item) ->
   $(content).masonry
     itemSelector: item
-    columnWidth: 220
+    columnWidth: 250
     isAnimated: true
     isFitWidth: true
     gutterWidth: 0

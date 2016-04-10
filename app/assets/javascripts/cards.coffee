@@ -5,7 +5,7 @@ masonry_start = (content, item) ->
     isAnimated: true
     isFitWidth: true
     gutterWidth: 0
-    transitionDuration: "1.8s"
+    transitionDuration: "0.8s"
 
 $(window).on 'load', ->
   masonry_start '#js-card-container', '.js-card-content'

@@ -3,7 +3,7 @@
   float: left;
   position: relative;
 
-  .card-image img {
+  .card-image {
   	border-radius: 10px 10px 0px 0px;
   	width: 100%;
   } 
@@ -11,14 +11,14 @@
   .card-text-field {
   	padding: 10px;
 
-    h3.card-title {
+    .card-title {
       color: #444;
       font-size: 14px;
       font-weight: bold;
       margin-top: 10px;
     }
 
-    p.card-detail {
+    .card-detail {
       color: #333;
       font-size: 13px;
       line-height: 17px;

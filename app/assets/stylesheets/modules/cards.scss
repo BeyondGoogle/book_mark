@@ -1,3 +1,36 @@
-// Place all the styles related to the cards controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.card {
+  background-color: white;
+  float: left;
+  position: relative;
+
+  .card-image {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+  }
+
+  .card-content {
+  	padding: 10px;
+
+    .card-title {
+      color: #444;
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .card-detail {
+      color: #333;
+      font-size: 13px;
+      line-height: 17px;
+    }
+  }
+
+  .card-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+}

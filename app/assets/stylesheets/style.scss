@@ -1,0 +1,16 @@
+body {
+  background-color: $top-background-color;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.item {
+  border-radius: 6px;
+  margin: 14px 7px 0 7px;
+  width: 236px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);
+}
+
+.centeredWithinWrapper {
+	margin: 0 auto;
+}

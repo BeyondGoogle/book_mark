@@ -6,6 +6,8 @@ class User < ActiveRecord::Base
 
   # association
   has_many :bookmarks, dependent: :delete_all
-  has_many :boards,    dependent: :delete_all
+  has_many :cards,     through: :bookmarks
   has_many :favorites, dependent: :delete_all
+  has_many :boards,    through: :favorites
+  has_many :boards,    dependent: :delete_all
 end
